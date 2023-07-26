@@ -22,11 +22,17 @@
 ├  KQMA_kor_v1_dev.csv
 
 ### Extraction-based MRC
+```
 
 cd Extraction-based MRC
-'''python
-  python ./run_QA.py --model_type roberta --model_name_or_path klue/roberta-large --output_dir klue_roberta-KMQA --data_dir data --data_name KMQA --train_file KQMA_kor_v1_train.json --predict_file KQMA_kor_v1_dev.json 
-'''
+
+# model : klue/roberta-large
+
+python ./run_QA.py --model_type roberta --model_name_or_path klue/roberta-large --output_dir klue_roberta-KMQA --data_dir data --data_name KMQA --train_file KQMA_kor_v1_train.json --predict_file KQMA_kor_v1_dev.json 
+
+```
+### Generation-based MRC
+
 ## References
 ### [Kobert-KorQuAD](https://github.com/monologg/KoBERT-KorQuAD)
 ### [Kobart-catbot](https://github.com/haven-jeon/KoBART-chatbot)
