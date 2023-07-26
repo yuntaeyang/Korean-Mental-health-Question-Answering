@@ -23,7 +23,7 @@
 
 ### Extraction-based MRC
 
-  cd Extraction-based MRC
+cd Extraction-based MRC
   python ./run_QA.py --model_type roberta --model_name_or_path klue/roberta-large --output_dir klue_roberta-KMQA --data_dir data --data_name KMQA --train_file KQMA_kor_v1_train.json --predict_file KQMA_kor_v1_dev.json 
 
 ## References
